@@ -1,0 +1,21 @@
+.todo-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .todo-input input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .todo-input input:hover,
+  .todo-input input:focus {
+    border-color: #007bff;
+    outline: none;
+  }

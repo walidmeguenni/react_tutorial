@@ -1,7 +1,12 @@
-import React from "react";
+import React, { Fragment } from "react";
 import "../styles/title.css";
-const Title = () => {
-  return (<h1 className="title">Summary</h1>)
+const Title = (props) => {
+  const { label, styles } = props;
+  return (
+    <Fragment>
+      <h1 className={styles}>{label}</h1>
+    </Fragment>
+  );
 };
 
 export default Title;

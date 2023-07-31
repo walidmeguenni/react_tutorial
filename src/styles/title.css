@@ -4,3 +4,14 @@
    color:blue;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.todo-title {
+   text-align: center;
+   background-color: #007bff;
+   color: #fff;
+   padding: 12px;
+   border-top-left-radius: 8px;
+   border-top-right-radius: 8px;
+   margin: -20px -20px 20px -20px;
+ }
+ 
